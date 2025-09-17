@@ -107,11 +107,12 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <div className="w-full h-full bg-gradient-to-r from-primary/20 to-secondary/20" />
         <Image
-            src="/api/placeholder/1920/1080"
+            src="aboutphoto.jpg"
             alt="Delicious food"
             fill
             className="object-cover opacity-30"
-          priority
+         
+          unoptimized
         />
         </div>
         
