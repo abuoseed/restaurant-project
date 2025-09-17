@@ -265,7 +265,7 @@ export default function Admin() {
             <li>Fill in the food name, description, and price</li>
             <li>Select a category (appetizers, main, desserts, beverages)</li>
             <li>Upload a high-quality image of the dish</li>
-            <li>Click "Add Food Item" to save to Supabase</li>
+            <li>Click &quot;Add Food Item&quot; to save to Supabase</li>
             <li>The item will appear on your website immediately</li>
           </ol>
         </motion.div>
