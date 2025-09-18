@@ -168,7 +168,7 @@ export default function Home() {
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {(featured.length ? featured.slice(0, 4) : featuredFallback).map((dish, index) => (
+            {(featured.slice(0, 4)).map((dish, index) => (
               <motion.div
                 key={dish.id}
                 initial={{ opacity: 0, y: 30 }}
